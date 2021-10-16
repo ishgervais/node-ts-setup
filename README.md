@@ -1,7 +1,7 @@
 # node-ts
 
 ## Initiate modules
-###yarn 
+### yarn 
 ## Build the project
 ### yarn build 
 ## Start the development

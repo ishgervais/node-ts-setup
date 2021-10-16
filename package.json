@@ -1,0 +1,26 @@
+{
+  "name": "kgg-backend",
+  "version": "1.0.0",
+  "description": "This is the Kigali Green Gallery",
+  "main": "index.js",
+  "repository": "https://github.com/ishgervais/kgg-backend.git",
+  "author": "Gervais",
+  "license": "MIT",
+  "scripts": {
+    
+    "build": "tsc --project ./",
+    "test": "ts-node ./src/app.ts",
+    "dev": "tsc && nodemon ./src/app.ts",
+    "start": "tsc && node ./bin/app.js",
+    "prod": "tsc && nodemon ./src/app.ts",
+    "ts-node": "^10.3.0"
+  },
+  
+  "dependencies": {
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.0",
+    "@types/nodemon": "^1.19.1"
+  }
+}
